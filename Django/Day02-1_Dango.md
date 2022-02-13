@@ -8,8 +8,6 @@ Forms 부터는 장고를 편하기 사용하기 위한 기능들을 설명 해�
 > 프로그램을 만들기 위해 공통적인 부분을 미리 만들어 놓고, 완성하기 위해 기능을 추가하면 프로그램이 완성되는 코드 뭉치
 
 ### Install
-![img.png](imgs/img.png)
- 
 ```python 
 Django-admin startproject [ProjectName] 
 ```
@@ -17,7 +15,6 @@ project 안에 manage.py 와 projectname을 가진 파일이 생성된다.
 
 
 ### 개념
-![img_1.png](imgs/img_1.png)
 
 ![img_2.png](imgs/img_2.png)
 
@@ -60,7 +57,7 @@ def index(request):
 ```
 > 클라이언트가 서버에게 Http에 맞춰서 request 하면 서버는 클라이언트에게 documnet로 response 한다. 
 
-####[ python Hello01 folder ]
+#### [ python Hello01 folder ]
 ##### urls.py
 - hello/urls에서 'hello01/'이 실행된다면 hello01.url로 가라는 path를 설정 해 주었기 때문에 
     해당 파일에서는 'hello01/'을 사용하지 않는다. 
@@ -91,7 +88,7 @@ def test(request):
     return HttpResponse("<h1><a href='/hello01'>return</a></h1>")
 
 def my(request):
-    return HttpResponse("<h1>이유진</h1>")
+    return HttpResponse("<h1>홍길동</h1>")
 ```
 
 ```
@@ -150,5 +147,5 @@ urlpatterns = [
     path('statics/',include('statics.urls'))
 ]
 ```
-![img_5.png](imgs/img_5.png)
 
+![img_5.png](imgs/hell01:my.png)
