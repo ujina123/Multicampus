@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    text-align: center;
+    font-family: PinterestSans,sans-serif!important;
+    background-color: rgb(0, 66, 44); 
+}
+
+
+/* Title */
+#Title{
+    width: 1380px;
+    height: 50px;
+    color: #cdf9cd;
+    background-color:rgb(0, 66, 44) ;
+    position: fixed;
+}
+
+#TitleList{
+    padding: 15px;
+    width: 1380px;
+    font-size: 15px;
+    background-color:rgb(0, 66, 44) ;
+    border-bottom: 1px solid rgba(205, 249, 205, 0.1);
+    text-align: right;
+}
+
+div li{
+    display: inline;
+    margin: 20px;
+}
+
+img{
+    width: 1380px;
+    height: 1000px;
+}
+
+.TitleButton{
+    display: inline;
+    padding: 10px;
+    border: 2px solid #efefef;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+}
+
+.MiddleButton{
+    padding: 15px;
+    border: 2px solid #efefef;
+    border-radius: 25px;
+    font-size: 17px;
+    cursor: pointer;
+    height: 40px;
+}
+
+/* middle */
+
+.MiddleTitle{
+    padding: 35px;
+    font-size: 70px;
+    font-style: italic;
+    color: #cdf9cd;
+}
+
+.MiddleTitle02{
+    font-size: 64px;
+    padding: 35px;
+    letter-spacing: -.007em;
+    line-height: 110%;
+}
+
+.MiddleContents{
+    position: absolute;
+    left: 200px;
+    width: 1000px;
+    font-size: 23px;
+    letter-spacing: -.007em;
+    line-height: 150%;
+}
+
+
+.Middle01{
+    color: #cdf9cd;
+}
+
+.Middle02{
+    color: rgb(0, 66, 44);
+    background-color: #fffedb;
+}
+
+.Middle03, .Middle04{
+    color: rgb(0, 66, 44);
+    background-color: rgb(255, 227, 118);
+}
+
+/* lower */
+#lowerDiv{
+    left: 0px;
+    height: 400px;
+    object-fit: cover;
+    background-color: rgb(205, 249, 205);color: rgb(0, 66, 44);
+}
+#lowerLeft{
+    margin: 5%;
+    float: left;
+}
+
+#lowerRight{
+    margin: 5%;
+    left: 900px;
+    float: right;
+}
+
+select{
+    width:250px;height:50px;
+    border-radius: 15px;
+}
+
+table th, table td{
+    text-align: left;
+    height: 30px;
+    width: 180px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
