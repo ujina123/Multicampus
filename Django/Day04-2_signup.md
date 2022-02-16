@@ -8,7 +8,7 @@ username : admin
 password : 1234
 ```
 
-![img.png](imgs/loginerror.png)
+![img.png](imgs/loginerror.png)<br>
 : 같은 이름 2개가 회원가입 되어 있을 경우, 위와 같은 에러 발생
 
 <br>
